@@ -1,7 +1,15 @@
 # Markdown Editor
 Markdown is a **_lightweight markup language_** that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one of the world’s most popular markup languages.
+![image](/app_code_icon.jpg)
 
 Using Markdown is different than using a WYSIWYG editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown isn’t like that. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different.
+
+##Testing GitHub
+Your computer crashed? Try sending a
+
+
+
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd>
 # Why Use Markdown?
 You might be wondering why people use Markdown instead of a WYSIWYG editor. Why write with Markdown when you can press buttons in an interface to format your text? As it turns out, there are a couple different reasons why people use Markdown instead of WYSIWYG editors.
 
@@ -14,7 +22,7 @@ You might be wondering why people use Markdown instead of a WYSIWYG editor. Why 
  - Markdown is future proof. Even if the application you’re using stops working at some point in the future, you’ll still be able to read your Markdown-formatted text using a text editing application. This is an important consideration when it comes to books, university theses, and other milestone documents that need to be preserved indefinitely.
 
  - Markdown is everywhere. Websites like Reddit and GitHub support Markdown, and lots of desktop and web-based applications support it.
- 
+ ~~It was created by John Gruber in 2004.~~
 # How Does It Work?
 There are four basic steps as mentioned below.
 1. Create a Markdown file using a text editor or a dedicated Markdown application. The file should have an .md or .markdown extension.
@@ -36,8 +44,30 @@ For more information, refer [link](https://www.markdownguide.org/getting-started
 # Welcome to StackEdit!
 
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
-
-
+<table class="table table-striped">
+<caption>Caption for this Table</caption>
+<thead class="thead-dark">
+<tr>
+    <th width="30%">Property</th>
+    <th width="70%">Description</th>
+    </tr>
+</thead>
+<tbody>
+<tr>
+    <td>Topic1</td>
+    <td>Topic2
+        <ul>
+        <li>Bullet item</li>
+        <li>Bullet item</li>
+        </ul>
+        </td>
+    </tr>
+<tr>
+    <td>TopicA</td>
+<td>TopicB</td>
+</tr>
+</tbody>
+</table>
 # Files
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
